@@ -8,7 +8,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+<<<<<<< HEAD
 
+=======
+    <!-- Imagen en el centro de la pantalla -->
+>>>>>>> a001e4ab048da5250d8d93f2bbf4a04afa42195f
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="162dp"
@@ -22,7 +26,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+<<<<<<< HEAD
 
+=======
+    <!-- Botón para reproducir audio -->
+>>>>>>> a001e4ab048da5250d8d93f2bbf4a04afa42195f
     <Button
         android:id="@+id/button"
         android:layout_width="171dp"
@@ -33,7 +41,11 @@
         app:layout_constraintTop_toBottomOf="@id/imageView"
         android:layout_marginTop="16dp" />
 
+<<<<<<< HEAD
 
+=======
+    <!-- VideoView para mostrar el video -->
+>>>>>>> a001e4ab048da5250d8d93f2bbf4a04afa42195f
     <VideoView
         android:id="@+id/videoView"
         android:layout_width="225dp"
@@ -43,23 +55,36 @@
         app:layout_constraintTop_toBottomOf="@id/button"
         android:layout_marginTop="16dp" />
 
+<<<<<<< HEAD
 
 
+=======
+    <!-- Botón para reproducir video -->
+>>>>>>> a001e4ab048da5250d8d93f2bbf4a04afa42195f
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginTop="20dp"
         android:text="Reproducir video"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.274"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/videoView" />
+=======
+        android:text="Reproducir video"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/videoView"
+        android:layout_marginTop="16dp" />
+>>>>>>> a001e4ab048da5250d8d93f2bbf4a04afa42195f
 
     <Button
         android:id="@+id/botonanimar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginTop="20dp"
         android:text="Animar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,6 +102,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/botonanimar" />
 
+=======
+        android:text="Animar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/videoView"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/perro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/botonanimar"
+        android:visibility="invisible" />
+>>>>>>> a001e4ab048da5250d8d93f2bbf4a04afa42195f
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

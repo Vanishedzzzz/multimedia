@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
+<<<<<<< HEAD
     <alpha
         android:duration="1000"
         android:fromAlpha="0.0"
         android:toAlpha="1.0" />
 </set>
+=======
+    <?xml version="1.0" encoding="utf-8"?>
+    <alpha xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="1000"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0" />
+
+</set>
+>>>>>>> a001e4ab048da5250d8d93f2bbf4a04afa42195f
